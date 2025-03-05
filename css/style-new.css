@@ -548,14 +548,11 @@ footer .logo span {
   font-family: boldFont;
 }
 footer h5 {
-  /* font-family: bruumBold;
-  color: #1b75ba;
-  font-size: 18px; */
   color: var(--main-color);
-  font-family: acuminFont;
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  font-family: bruumBold;
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 footer form button.btn {
   display: flex;
@@ -603,6 +600,8 @@ footer .icon-download img {
 }
 footer form .btn {
   font-size: 15px;
+  background-color: var(--main-color);
+  color: #fff;
 }
 /* end footer */
 
