@@ -267,6 +267,13 @@ header .right-part .nav2 ul li a {
     line-height: 20px;
     padding: 15px 0 !important;
 }
+#rtl header .nav-1 li a, #rtl header .nav-2 li a {
+  font-family: bejanSemiBold;
+  /* font-size: 18px; */
+}
+#rtl header .nav-1, #rtl header .nav-2 {
+  direction: rtl;
+}
 /* start banner_1 */
 .banner_1 {
   position: relative;
