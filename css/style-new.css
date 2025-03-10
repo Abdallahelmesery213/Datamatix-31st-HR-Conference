@@ -274,6 +274,14 @@ header .right-part .nav2 ul li a {
 #rtl header .nav-1, #rtl header .nav-2 {
   direction: rtl;
 }
+#rtl .text p,
+#rtl .text p a{
+  font-family: bejanSemiBold;
+  font-size: 18px;
+}
+#rtl .text p a{
+  color: var(--main-color);
+}
 /* start banner_1 */
 .banner_1 {
   position: relative;
