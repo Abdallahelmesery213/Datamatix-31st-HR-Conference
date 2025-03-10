@@ -282,6 +282,23 @@ header .right-part .nav2 ul li a {
 #rtl .text p a{
   color: var(--main-color);
 }
+#rtl .rtl.welcome-page p, #rtl .rtl.theme-page p , #rtl .rtl.welcome-page ul li{
+  font-family: bejanSemiBold;
+}
+#rtl .rtl.welcome-page ul{
+  margin-right: 32px;
+}
+#rtl .rtl.welcome-page p, #rtl .rtl.theme-page p, #rtl .rtl.welcome-page ul li {
+  font-size: 19px;
+  text-align: right;
+  direction: rtl;
+}
+#rtl .welcome-page strong, #rtl .theme-page strong, #rtl .welcome-page h4, #rtl .theme-page h4 {
+  font-family: bejanBold;
+}
+.welcome-page p, .welcome-page strong {
+  font-size: 19px;
+}
 /* start banner_1 */
 .banner_1 {
   position: relative;
